@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Carrito de Compras</h1>
+        <div id="product-list">
+            <div class="product">
+                <span>Producto 1 - $1000</span>
+                <button class="button_1" onclick="agregarProducto(1000)">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <span>Producto 2 - $2000</span>
+                <button class="button_1" onclick="agregarProducto(2000)">Agregar al Carrito</button>
+            </div>
+        </div>
+        <h2>Carrito</h2>
+        <ul id="carrito-list"></ul>
+        <p>Total: $<span id="total">0</span></p>
+    </div>
+    <script src="assets/js/ShoppinCart.js"></script>
+</body>
+
+</html>
